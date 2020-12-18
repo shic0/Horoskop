@@ -37,6 +37,7 @@ try {
                 $yourHoroscope = calculateHoroscope($_POST["day"], $_POST["month"]); 
 
                 if(empty($yourHoroscope)) {
+                    
                     throw new Exception("Horoskopet kunde inte räknas ut..");
                 }
                

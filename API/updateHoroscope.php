@@ -35,7 +35,7 @@ try {
 
             if(isset($_POST["day"]) && isset($_POST["month"])) {
                
-                $yourHoroscope = calculateHoroscope($_POST["day"],$_POST["month"]); 
+                $yourHoroscope = calculateHoroscope($_POST["day"], $_POST["month"]); 
             
                 $_SESSION["horoscope"] = serialize($yourHoroscope);
 
