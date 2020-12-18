@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoskop</title>
+    <script defer src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body class="stars">  
+ 
+<main>
+    <div>
+        <h1>Horoskop</h1>
+        <h2>Vilket horoskop är du?</h2> <br>
+        <h2>Skriv in när du är född</h2> <br>
+    </div>
+    <div class="center">
+        <input id="bdayDate" type="date">
+        <button id="saveBtn">Spara</button> <br><br>
+        <button id="updateBtn">Uppdatera</button> 
+       <button id="deleteBtn">Radera</button> <br>
+    </div> 
+    <div>
+        <h1 id="showHoroscope"></h1>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  /*   font-family: 'Nerko One', cursive; */
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    height: 100%;
+   /*  font-family: 'Nerko One', cursive; */
+}
+
+h1, h2 {
+    font-family: 'Nerko One', cursive;
+    text-shadow: 2px 4px black;
+} 
+
+
+.stars {
+    background-image: url(./stars.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+
+
+#bdayDate {  
+    width: 150px;
+} 
+    
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#saveBtn {
+    color: black;
+}
+
+#updateBtn {
+    color: white;
+    background-color: black;
+}
+
+#deleteBtn {
+    color: black;
+    background-color: crimson;
+}
